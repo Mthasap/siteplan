@@ -3,7 +3,7 @@
 Any spaces in your font name should be replaced with a +. 
 Fonts are separated by a & */
 
-  @import url('https://fonts.googleapis.com/css2?family=Hind&family=Rowdies:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hind&family=Rowdies:wght@300&display=swap');
 
 :root {
   /* change the values below to your colors from your palette */
@@ -50,7 +50,7 @@ color: black;}
 h4 {background-color: white;
 color: lightblue;}
 .msg h2 {background-color: white;
-color: black;}
+color: red;}
 .msg p {background-color: white;
 color: black;}
 footer a {background-color: white;
