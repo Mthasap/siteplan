@@ -3,7 +3,7 @@
 Any spaces in your font name should be replaced with a +. 
 Fonts are separated by a & */
 
-  @import url('https://fonts.googleapis.com/css2?family=Hind&family=Rowdies:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hind&family=Rowdies:wght@300&display=swap');
 
 :root {
   /* change the values below to your colors from your palette */
@@ -20,7 +20,7 @@ Fonts are separated by a & */
   --headline-color-on-white: #185177;  /* headlines on a white background */ 
   --headline-color-on-color: rgb(255, 255, 255); /* headlines on a colored background */ 
   --paragraph-color-on-white: #396E94; /* paragraph text on a white background */ 
-  --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
+  --paragraph-color-on-color: #FF0000; /* paragraph text on a colored background */ 
   --paragraph-background-color: #396E94  ;
   --nav-link-color: #396E94;
   --nav-background-color: #B5B3D1;
@@ -55,6 +55,10 @@ hr {
   margin: 35px 0;
   background: var(--accent1-color);
 }
+footer
+  {background-color: #016064;
+  color: white;}
+footer p {padding: 25px;}
 header {
   padding: 1em;
   text-align: center;
@@ -97,6 +101,9 @@ p {
 p.colored {
   background-color: var(--paragraph-background-color);
   color: var(--paragraph-color-on-color);
+}
+.home-tittle {
+  font-family: 'rock salt', 'bradley hand', sans-serif;
 }
 nav {
   background-color: var(--nav-background-color);
