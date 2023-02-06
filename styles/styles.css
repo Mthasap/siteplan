@@ -41,7 +41,7 @@ body {
 body div {max-width: 1600px;}
 #content{margin: 0 auto;}
 nav a {text-align: center;
-background-color: white;
+background-color: lightblue;
 color: gray;
 text-decoration: none;
 }
@@ -62,7 +62,7 @@ color: black;}
 .button-box {text-align: center;}
 main section {text-align: center;}
 #background {height: 725px;}
-body {background-color: lightblue;}
+body {background-color: white;}
 header {background-color: blue;}
 nav a:hover {background-color: darkgray;
 color: blue;}
