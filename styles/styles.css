@@ -7,7 +7,7 @@ Fonts are separated by a & */
 
 :root {
   /* change the values below to your colors from your palette */
-  --primary-color: #4A7C59   ;
+  --primary-color: #ADD8E6   ;
   --secondary-color: #68B0AB ;
   --accent1-color: #8FC0A9;
   --accent2-color: #5B5B5B;
@@ -20,7 +20,7 @@ Fonts are separated by a & */
   --headline-color-on-white: #185177;  /* headlines on a white background */ 
   --headline-color-on-color: rgb(255, 255, 255); /* headlines on a colored background */ 
   --paragraph-color-on-white: #396E94; /* paragraph text on a white background */ 
-  --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
+  --paragraph-color-on-color: #FF0000; /* paragraph text on a colored background */ 
   --paragraph-background-color: #396E94  ;
   --nav-link-color: #396E94;
   --nav-background-color: #B5B3D1;
@@ -35,7 +35,7 @@ body {
   max-width: 960px;
   margin: 0 auto;
   padding: 4em;
-  font-size: 22px;
+  font-size: 18px;
   text-align: center;
 }
 body div {max-width: 1600px;}
@@ -91,6 +91,10 @@ hr {
   margin: 35px 0;
   background: var(--accent1-color);
 }
+footer
+  {background-color: #016064;
+  color: white;}
+footer p {padding: 25px;}
 header {
   padding: 1em;
   text-align: center;
@@ -134,6 +138,10 @@ p.colored {
   background-color: var(--paragraph-background-color);
   color: var(--paragraph-color-on-color);
 }
+.home-tittle {
+  font-family: 'rock salt', 'bradley hand', sans-serif;
+  font-size: 2em;
+}
 nav {
   background-color: var(--nav-background-color);
   line-height: 3em;
@@ -143,12 +151,6 @@ nav {
 nav  {
   list-style-type: none;
   display: flex;
-}
-footer p {
-  font-size: 1.2em;
-}
-footer p a:hover {
-  text-decoration: underline;
 }
 nav a {
   padding:1em;
@@ -184,12 +186,12 @@ nav a:hover {
 }
 .sm-page2 {
   grid-area: page2;
-  background-color: white;
+  background-color: #ccc;
   line-height: 3em;
 }
 .sm-page3 {
   grid-area: page3;
-  background-color: white;
+  background-color: #ccc;
   line-height: 3em;
 }
 .top {
@@ -206,6 +208,3 @@ nav a:hover {
   border-top: 1px solid;
   border-right: 1px solid;
 }
-.logo {width: 80px;}
-.icon {width: 80px;}
-#hero-image {width: 100px;}
